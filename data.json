@@ -1,0 +1,26 @@
+[
+    {
+        "environment": "Development",
+        "zone": "Zone 1",
+        "url": "https://www.google.com",
+        "address": "123 Main St"
+    },
+    {
+        "environment": "QA",
+        "zone": "Zone 2",
+        "url": "https://www.yahoo.com",
+        "address": "456 Maple Ave"
+    },
+    {
+        "environment": "Stress",
+        "zone": "Zone 3",
+        "url": "https://www.microsoft.com",
+        "address": "789 Elm Rd"
+    },
+    {
+        "environment": "Production",
+        "zone": "Zone 4",
+        "url": "https://www.apple.com",
+        "address": "101 Oak St"
+    }
+]

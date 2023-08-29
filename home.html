@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dynamic Table from JSON</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        #data-table {
+            width: 80%;
+            margin: 30px auto;
+            border-collapse: collapse;
+            background-color: white;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        #data-table th, #data-table td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        #data-table thead {
+            background-color: #333;
+            color: white;
+        }
+
+        #data-table tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+	    .search-input {
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 14px;
+    }
+    </style>
+</head>
+<body>
+    <div>
+        <label for="search">Search:</label>
+        <input type="text" id="search" class="search-input" placeholder="Enter a value to search">
+    </div>
+
+    <table id="data-table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Country</th>
+                <th>Address</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Data will be inserted here -->
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
